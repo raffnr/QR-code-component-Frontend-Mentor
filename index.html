@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+        :root {
+            --main-font: "Outfit", sans-serif;
+        }
+
+        * {
+            font-family: var(--main-font);
+        }
+    </style>
+
+    <link rel="stylesheet" href="./css/output.css">
+    <title>QR code component</title>
+</head>
+<body class="bg-slate-300 h-screen">
+    <div class="container w-custom1 h-custom1 bg-white absolute mx-auto left-0 right-0 top-0 bottom-0 my-auto rounded-custom1 p-4 flex flex-col items-center">
+        <div class="card-img bg-blue-600 w-72 h-72 rounded-custom2 overflow-hidden relative">
+            <img src="./images/image-qr-code.png" alt="qr-img" class="object-contain">
+        </div>
+        <div class="card-text text-center mt-6">
+            <h1 class="font-bold text-slate-900 text-custom-md">Improve your front-end <br>skills by building projects</h1>
+            <p class="mt-4 text-slate-500 text-custom-base">Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
+        </div>
+    </div>
+</body>
+</html>
